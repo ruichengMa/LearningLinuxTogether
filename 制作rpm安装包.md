@@ -22,7 +22,6 @@ mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
 5、查看环境变量、命令
 rpmbuild --showrc 显示所有的宏，以下划线开头，一个下划线：定义环境的使用情况，二个下划线：通常定义的是命令
 
-
 【教程】https://fedoraproject.org/wiki/How_to_create_an_RPM_package/zh-cn
 
 【例子】https://github.com/nmilford/rpm-etcd/blob/master/etcd.spec
